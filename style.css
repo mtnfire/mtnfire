@@ -212,7 +212,15 @@ nav a:hover {
 .footer-credit {
   letter-spacing: 0.5px;
 }
+---
+layout: default
+title: Calendar
+---
 
+<main class="dark-section">
+  <h2>🔥 Upcoming Events</h2>
+  <p>Stay tuned — revival dates, podcast drops, and speaking events will appear here soon.</p>
+</main>
 .testimony-verse {
   text-align: center;
   font-style: italic;
@@ -221,6 +229,34 @@ nav a:hover {
   padding: 0 1rem;
   max-width: 600px;
 }
+---
+layout: default
+title: Blog
+---
+
+<main class="dark-section">
+  <h2>🔥 MTN.fire Blog</h2>
+
+  <ul class="blog-list">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</main>
+
+---
+layout: default
+title: Store
+---
+
+<main class="dark-section">
+  <h2>🛒 MTN.fire Merch</h2>
+  <p>Faith. Fire. Apparel. Our store is coming soon with bold, testimony-driven gear.</p>
+  <p><em>Printful integration goes here.</em></p>
+</main>
 
 .testimony-verse cite {
   display: block;
