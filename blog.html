@@ -4,7 +4,7 @@
   <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Store — MTN.fire</title>
+  <title>Blog — MTN.fire</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -20,15 +20,33 @@
       </ul>
     </nav>
   </header>
-<main class="blog-post">
-  <h2>MTN.fire Blog</h2>
 
-  <ul class="blog-list">
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</main>
+  <main class="dark-section">
+    <h2>🔥 MTN.fire Blog</h2>
+
+    <div class="blog-list">
+      <div class="blog-post">
+        <h2>First Fire Drop</h2>
+        <p class="blog-date">May 4, 2025</p>
+        <p>I’ve walked through the fire, but it didn’t burn me. This is the first of many raw, real posts that dive deep into what God’s been doing in my life since I surrendered everything and stepped into the flame.</p>
+        <p>No filters. No polish. Just truth. Let’s shake the mountains together.</p>
+      </div>
+
+      <div class="blog-post">
+        <h2>The Ember Still Burns</h2>
+        <p class="blog-date">Coming Soon</p>
+        <p>Even when the flame dies down to embers, the fire of God still burns in the heart. This next post will unpack what happens in the in-between — the waiting, the pressing, the refining. Stay tuned.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p class="footer-verse">“You meant evil against me, but God meant it for good…”</p>
+    <p class="footer-ref">— Genesis 50:20 (ESV)</p>
+    <div class="footer-bottom">
+      <span class="fire-icon">🔥</span>
+      <span class="footer-credit">Matt Culbertson © 2025 — MTN.fire</span>
+    </div>
+  </footer>
+</body>
+</html>
