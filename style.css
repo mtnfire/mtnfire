@@ -145,6 +145,66 @@ nav a:hover {
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(255, 69, 0, 0.3);
 }
+.blog-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+.blog-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #ff4500;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+}
+
+.blog-list a {
+  color: #ff4500;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.blog-date {
+  display: block;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-top: 0.25rem;
+}
+.blog-post {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.blog-post h2 {
+  color: #ff4500;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-post p {
+  margin-bottom: 1.2rem;
+}
+
+.blog-post a {
+  color: #ff4500;
+  text-decoration: underline;
+}
+
+.blog-post blockquote {
+  border-left: 4px solid #ff4500;
+  padding-left: 1rem;
+  color: #ccc;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
 
 /* Responsive */
 @media (max-width: 768px) {

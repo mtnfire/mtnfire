@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} — MTN.fire</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link rel="alternate" type="application/rss+xml" title="MTN.fire Blog" href="/feed.xml" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="/">MTN.fire</a></h1>
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/testimony.html">Testimony</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/calendar.html">Calendar</a></li>
+        <li><a href="/store.html">Store</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="blog-post">
+    <h2>{{ page.title }}</h2>
+    <p class="blog-date">{{ page.date | date: "%B %d, %Y" }}</p>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p class="footer-verse">“You meant evil against me, but God meant it for good…”</p>
+    <p class="footer-ref">— Genesis 50:20 (ESV)</p>
+    <div class="footer-bottom">
+      <span class="fire-icon">🔥</span>
+      <span class="footer-credit">Matt Culbertson © 2025 — MTN.fire</span>
+    </div>
+  </footer>
+</body>
+</html>
