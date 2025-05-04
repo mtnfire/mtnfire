@@ -1,0 +1,7 @@
+title: MTN.fire
+description: Testimony. Fire. Truth. From the mountains.
+baseurl: "" # leave blank for custom domains like www.mtnfire.org
+url: "https://www.mtnfire.org"
+
+plugins:
+  - jekyll-feed
